@@ -1,0 +1,278 @@
+body{
+    margin:0px;
+    width:100%;
+     margin-right:0px;
+     padding-left: 0;
+}
+
+
+
+/* header sectiion starts*/
+
+
+header{
+    background-image: url('pics/pic2.jpg');
+    background-repeat:no-repeat;
+    background-size: cover;
+    height:550px;   /*550px*/
+    width:100%;
+    
+    color:white;
+    
+}
+
+table img{
+    height:20em;
+    width:24em;
+}
+#td1,#td2{
+    width:40em;
+}
+#twof{
+    width:45em;     /*45em*/
+}
+header h1{
+    color:#FFCC1D;
+}
+
+.btn {
+    -webkit-border-radius: 9;
+    -moz-border-radius: 9;
+    border-radius: 9px;
+    font-family: Georgia;
+    color: #2c272e;
+    font-size: 23px;
+    background: #ffcc1d;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #FBF46D;
+    text-decoration: none;
+  }
+  
+  header table{
+      vertical-align: middle;
+      margin-left:100px ;
+      
+      
+  }
+  
+  header ul a{
+      text-decoration: none;
+      color: white;
+      
+  }
+  header ul{
+      list-style-type: none;
+      overflow:auto;
+  }
+  header ul li{
+      float:left;
+      padding:10px;
+  }
+
+  #nav{
+      display:flex;
+      
+  }
+  #nav img{
+    padding:10px 200px;
+
+  }
+  
+  header a:hover{ color:#FFCC1D;
+
+  }
+  /* about secton */
+
+  #about{
+      background-color: #28282d;
+  }
+  #aboutpart img{width:54em;
+    height:30em;
+    margin-right:30px;
+    margin-left :50px;
+
+
+  }
+  #aboutt{
+      width:13em;
+      color:white;
+  }
+  #aboutpart{
+      display:flex;
+      padding:20px ;
+  }
+  #aboutt p{
+      text-align:justify;
+  }
+
+  /*our food quality section starts*/
+  #secpart{
+      height:1000px;
+      background-image: url('pics/Group\ 4.png');
+      background-repeat: no-repeat;
+      background-size: contain;
+  }
+  #yellowparttext h2,p{
+      color:white;
+      
+  }
+  #yellowparttext{
+      width:30em;
+      padding:10px 30px ;
+  }
+  #secpart{
+      padding-top: 450px;
+  }
+/*gallery section starts*/
+
+  #gallery h1{
+      text-align: center;
+      color: white;
+  }
+  .ig{ width:28%;
+    height:400px;
+    margin:10px;
+  }
+  .img1{
+
+    text-align: center;
+    
+  }
+
+  /*enjoy our food section starts */
+
+  #enjoyfood{
+      height:600px;
+      background-image: url('pics/section\ 5\ bg.png');
+      margin-top: 50px;
+      padding-top:230px;
+      background-size: cover;
+      background-repeat: no-repeat;
+      box-sizing: border-box;
+      
+  }
+  #eof{
+      width:25em;
+      border:3px solid #ffcc1d;
+      
+
+  }
+  #eof h2,p{
+      color:white;
+  }
+ /*menu section starts*/
+  #menu h1,p{
+      color:white;
+  }
+#menu h2,h3{
+    color:#ffcc1d;
+}
+
+/*enjoy meal section starts*/
+#lastsecond{
+    background-color:#ffcc1d;
+    height:300px;
+    display:flex;
+    font-size: 20px;
+}
+#lastsecond div{
+    width:30em;
+    display:inline-block; 
+    margin-top:40px;
+}
+#lastsecond img{
+    height:400px;
+    margin-top: -30px;
+    margin-right: 60px;
+    
+}
+#lastsecond h1{
+    color:white;
+}
+/*footer section starts*/
+#footbar{
+    background-color: #34343b;
+    height:300px;
+}
+footer img{
+    height:70px;
+    margin-top:60px;
+}
+footer ul{
+    display:flex;
+    justify-content: center;
+}
+footer ul li{
+    color:white;
+    margin:10px;
+}
+#footera{
+    display:flex;
+    justify-content: center;
+}
+#footer a{
+    color:white;
+    text-decoration: none;
+    
+
+}
+#footera img{
+    height:25px;
+    margin:10px;
+}
+
+
+footer a{
+    text-decoration: none;
+    color:white;
+}
+footer a:hover{
+    text-decoration: none;
+    color:#ffcc1d;
+    
+}
+#footera a:hover{
+    background-color: #ffcc1d;
+}
+
+
+h1,h2,h3{
+    font-family: 'Roboto', sans-serif;
+}
+
+button{
+    cursor:pointer;
+}
+
+
+
+
+@media only screen and (max-width:1366px){
+
+    header{
+        
+        
+        height:auto;   
+        
+        
+        
+    }
+    
+    
+    
+    #twof{
+        width:300px;     
+    }
+
+
+    #secpart{
+        padding-top: 40%;
+    }
+
+}
+
+
